@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b7505dc5.css",
-    "main.js": "/static/js/main.66e8254d.js",
+    "main.css": "/static/css/main.d4247872.css",
+    "main.js": "/static/js/main.87e0e6f8.js",
     "static/js/511.5b7c88fe.chunk.js": "/static/js/511.5b7c88fe.chunk.js",
     "static/media/new-simulation.mp4": "/static/media/new-simulation.1ef5e64b6de2749b463a.mp4",
     "static/media/gol.mp4": "/static/media/gol.15f4b2e63a9c896e9933.mp4",
@@ -13,14 +13,14 @@
     "static/media/0frame00225.jpg": "/static/media/0frame00225.263bedd0310840b8d8b5.jpg",
     "static/media/Gameoflife.png": "/static/media/Gameoflife.dcc0be02923defd833db.png",
     "static/media/YN.svg": "/static/media/YN.b5cdd153b131e50a398b755cc3400c9c.svg",
-    "static/media/arrow.svg": "/static/media/arrow.f65a04481451ae91a046465d36877516.svg",
     "index.html": "/index.html",
-    "main.b7505dc5.css.map": "/static/css/main.b7505dc5.css.map",
-    "main.66e8254d.js.map": "/static/js/main.66e8254d.js.map",
+    "static/media/arrow.svg": "/static/media/arrow.f65a04481451ae91a046465d36877516.svg",
+    "main.d4247872.css.map": "/static/css/main.d4247872.css.map",
+    "main.87e0e6f8.js.map": "/static/js/main.87e0e6f8.js.map",
     "511.5b7c88fe.chunk.js.map": "/static/js/511.5b7c88fe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7505dc5.css",
-    "static/js/main.66e8254d.js"
+    "static/css/main.d4247872.css",
+    "static/js/main.87e0e6f8.js"
   ]
 }
