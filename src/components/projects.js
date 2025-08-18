@@ -1,10 +1,12 @@
 import ProjectCard from "./projectcards";
-import abm2 from './images/Screenshot from 2025-04-28 10-15-48.png';
-import abm from './images/Screenshot from 2025-04-28 10-15-48.png';
+import abm2 from './images/new-simultion.png';
+import abm from './images/abm.png';
 import grm from './images/0frame00225.jpg';
 import gol from './images/Gameoflife.png';
 import grmVideo from './videos/outputFINAL.mp4';
 import golvideo from './videos/gol.mp4';
+import newSim from './videos/new-simulation.mp4'
+import oldSim from './videos/abm.mp4'
 
 
 export default function Projects() {
@@ -20,17 +22,18 @@ export default function Projects() {
 
 
         <ProjectCard
-          title="ABM: Multi Agent Systems V2"
+          title="Agent Based Modelling: Metric Testing"
           repoLink="https://github.com/yourusername/ABM-MultiAgentSystems"
           demoLink="https://yourprojectdemo.com"
           imgSrc={abm2}
           imgAlt="Screenshot of ABM: Multi Agent Systems 2"
+          videoSrc={newSim}
           description="An advanced agent-based modeling simulation platform focused on complex multi-agent interactions and emergent behavior analysis."
           technologies="Python, Mesa, NumPy"
           features={[
             "Implements scalable agent-based simulations",
-            "Customizable agent behaviors and environments",
-            "Visualization of emergent patterns"
+            "Customisable agent behaviors and environments",
+            "Visualisation of emergent patterns"
           ]}
         />
 
@@ -41,8 +44,8 @@ export default function Projects() {
           demoLink="https://yourprojectdemo.com"
           imgSrc={abm}
           imgAlt="Screenshot of ABM: Multi Agent Systems"
-          
-          description="A foundational agent-based modeling framework for simulating and analyzing interactions among autonomous agents."
+          videoSrc={oldSim}
+          description="A foundational agent-based modeling framework for simulating and analysing interactions among autonomous agents."
           technologies="Python, Mesa"
           features={[
             "Simulates multi-agent cooperation",
@@ -54,12 +57,10 @@ export default function Projects() {
 
         <ProjectCard
           title="Graphics Render Machine"
-          repoLink="https://github.com/yenhain/Graphics-Render"
-          demoLink=""
           imgSrc={grm}
           imgAlt="Screenshot of Graphics Render Machine"
           videoSrc={grmVideo}
-          description="A custom graphics rendering engine for visualizing 2D and 3D objects, supporting real-time rendering and user interaction."
+          description="A custom graphics rendering engine for visualising 2D and 3D objects, supporting real-time rendering and user interaction."
           technologies="C++, OpenGL, SDL2"
           features={[
             "Real-time 3D rendering machine",
@@ -70,8 +71,6 @@ export default function Projects() {
 
         <ProjectCard
           title="Game Of Life"
-          repoLink="https://github.com/yenhain/Conways-Game-Of-Life/tree/main"
-          demoLink=""
           imgSrc={gol}
           imgAlt="Screenshot of Game Of Life"
           videoSrc={golvideo}

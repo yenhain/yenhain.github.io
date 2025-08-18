@@ -29,9 +29,9 @@ export default function AboutMe() {
           and hiking. I also love bringing people together 
           by hosting themed supper clubs. 
           I’m keen to join an innovative team where 
-          I can contribute, grow, and help create impactful software.
+          I can contribute, grow and help create impactful software.
 
-          Insert skills icons
+        
         </p>
 
 

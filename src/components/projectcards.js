@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 
 
 export default function ProjectCard({
@@ -14,7 +14,7 @@ export default function ProjectCard({
 
 }) {
 
-  const [showVideo,setShowVideo] = useState(false)
+  const [showVideo, setShowVideo] = useState(false)
 
   return (
     <div className="project-card">
@@ -35,7 +35,7 @@ export default function ProjectCard({
           width="100%"
           controls
           autoPlay
-          onEnded={() => setShowVideo(false)} // Return to image after video ends
+          onEnded={() => setShowVideo(false)}
         >
           <source src={videoSrc} type="video/mp4" />
           Your browser does not support the video tag.
@@ -53,28 +53,34 @@ export default function ProjectCard({
           <li key={i}>{item}</li>
         ))}
       </ul>
-      <a
+      <a>
+        {videoSrc && (
+          <>
+            <button
+              className="btn-link"
+              type="button"
+              onClick={() => setShowVideo(true)}
+            >
+              ▶ Play Video Demo
+            </button>
+
+          </>
+        )}
+      </a>
+      <br />
+      {/*<a
         href={repoLink}
         target="_blank"
         rel="noopener noreferrer"
         className="btn-link"
+        
       >
         GitHub Repo
-      </a>
-      {demoLink && (
-        <>
-          <br />
-          <br />
-          <a
-            href={demoLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn-link"
-          >
-            Live Demo
-          </a>
-        </>
-      )}
+      </a>*/
+      }
+
+
+
     </div>
   );
 }

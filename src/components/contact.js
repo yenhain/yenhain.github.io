@@ -4,7 +4,7 @@ export default function Contact() {
       <div className="App-body">
         <h2>Contact</h2>
         <br />
-        <p>
+        {/*<p>
           <strong>Email:</strong>
           <a href="mailto:yenhn30@gmail.com" >
             yenhn30@gmail.com
@@ -16,9 +16,10 @@ export default function Contact() {
           <a href="https://www.linkedin.com/in/yen-nguyen-380745171/" target="_blank" >
             linkedin.com/in/yen-nguyen-380745171/
           </a>
-        </p>
+        </p>*/}
 
-        <h3> Contact Form</h3>
+        <h4> Have questions or want to chat about my work? <br/> 
+          Feel free to reach out, I’d love to hear from you!</h4>
         <form
           action="mailto:yenhn30@gmail.com"
           method="post"

@@ -2,7 +2,7 @@
   background-image: url('maxim-berg-l1pgMU5AjLc-unsplash.jpg');
   background-size: cover;
   min-height: 100vh;
-
+ 
   display: flex;
   flex-direction: column;
   color: rgb(130, 85, 150);
@@ -10,6 +10,12 @@
 
 .App-header {
   min-height: 100vh;
+  position: relative;
+  display: inherit;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  flex-direction: column;
 }
 
 .App-link {
@@ -73,7 +79,7 @@ html {
   color: rgb(130, 85, 150);
   padding-left: 20%;
   padding-right: 20%;
-  text-align: left;
+  text-align: center;
   padding-top: 10%;
   font-size: 1.5rem;
 }
